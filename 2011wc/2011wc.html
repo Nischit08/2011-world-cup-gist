@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="ri.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCCI Council</title>
+<link href="https://fonts.googleapis.com/css2?family=Autour+One&family=Play&family=Press+Start+2P&family=Satisfy&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Play&family=Press+Start+2P&family=Satisfy&display=swap');
+        </style>
+
+    <style>
+        
+        *{
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+body{
+    background-size: cover;
+
+    
+}
+.container{
+
+    display:flex;
+    justify-content: space-between;
+
+    
+}
+header{
+    display:block;
+    justify-content: center;
+/* From https://css.glass */
+background:linear-gradient(30deg,#0E133A,#3562AD, #5066C1, #585FBE,#5F3090);
+border-radius: 6px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(100px);
+-webkit-backdrop-filter: blur(12.4px);
+border: 1px solid rgb(152, 184, 229);
+position: static;
+}
+.logo{
+
+
+    color: aliceblue;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg{
+position: absolute;
+width: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index:-1;
+background-color: rgba(0,0,0,0.4);
+}
+li{
+   
+    display:inline;
+padding: 30px;
+padding-right: 30px;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+    }
+    nav ul a{
+        display: inline;
+justify-content: center;
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+@media(min-aspect-ratio: 16/9) {
+    .bg{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media(max-aspect-ratio: 16/9) {
+    .bg{
+        width: auto;
+        height: 100%;
+    }
+    
+}
+
+.mi{
+    text-align: center;
+    align-items: center;
+}
+.mib{width: 150px;
+    background:linear-gradient(22deg,#0E133A,#3562AD, #5066C1, #585FBE,#5F3090);
+    border-radius: 15px;
+    border-width:2%;
+    align-items: center;
+    text-align: center;
+    border-color:aliceblue;
+    font-family: poppins;
+    color: aliceblue;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+.hello{
+text-align: center;
+align-items: center;
+font-family: poppins;
+color: aliceblue;
+padding-top: 250px;
+font-family: Press Start 2P;
+font-size: 50px;
+}
+    </style>
+<header>
+    <div class="container">
+        <div class="logo">BCCI</div>
+        <div>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="INDp11.html" target="_blank">Indians 11</a></li>
+                    <li><a href="SLp11.html" target="_blank">Sri Lankans 11</a></li>
+                    <li><a href="Scorecard.html"  target="_blank">Scorecard</a></li>
+                    
+                </ul>
+                </nav>
+                        </div>
+        
+    </div>
+</header>
+
+<div class="cont">
+    <div>
+    <video autoplay loop plays-inline muted class="bg"><source src="background video.mp4" </video>
+</div>
+<div>
+    <h1 class="hello">Submit your review</h1>
+    
+
+</div>
+</div>
+
+<form action="index.php" method="post">
+<div class="mi">
+    <a href="#"><button class="mib">Click Here</button></a>
+</div>
+</form>
+
+
+</body>
+</html>
